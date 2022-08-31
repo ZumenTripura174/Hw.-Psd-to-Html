@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.button {
+  text-align: center;
+  width: 196px;
+  height: 48px;
+  background-color: #cfc91d;
+  display: block;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 800;
+  color: #0b1016;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar  STARTS HERE */
+nav {
+  background-color: #02918c;
+}
+
+nav .logo {
+  width: 30%;
+}
+nav .menu {
+  width: 70%;
+}
+nav .menu ul {
+  text-align: right;
+}
+nav .menu ul li {
+  display: inline-block;
+}
+nav .menu ul li a {
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 26px 25px;
+  display: block;
+}
+
+nav .menu ul li:hover a{
+  color: #060af5;
+  background-color: #f3ef7d;
+}
+
+/* Navbar  STARTS HERE */
+
+/* Banner Starts here */
+
+#banner {
+  background-image: url(../img/banner.jpg);
+  background-color: rgba(0, 0, 0, 0.34);
+  background-blend-mode: multiply;
+  height: 730px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#banner .row {
+  height: 730px;
+}
+
+#banner .bannerCnt {
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+#banner .bannerCnt h3 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#banner .bannerCnt h1 {
+  font-size: 68px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+#banner .bannerCnt p {
+  font-size: 18px;
+  font-weight: 400;
+}
+#banner .bannerCnt img {
+  margin: 50px 0;
+}
+#banner .bannerCnt:hover a {
+  color: #cfc91d;
+  background-color: #898c91;
+}
+
+/* Banner Ends here */
+
+/* About Section */
+
+#about .aboutCnt {
+  text-align: center;
+  padding: 30px 0;
+}
+#about .aboutCnt h1 {
+  font-size: 46px;
+  color: #02918c;
+  font-weight: 800;
+}
+
+#about .aboutCnt h4 {
+  color: #898c91;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+#about .aboutCnt span {
+  font-weight: 800;
+  font-size: 23px;
+  color: #7e8287;
+}
+/* About section Ends */
